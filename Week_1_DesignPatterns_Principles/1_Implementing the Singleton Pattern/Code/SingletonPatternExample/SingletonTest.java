@@ -12,7 +12,7 @@ public class SingletonTest {
         if (logger1 == logger2) {
             System.out.println("Same Logger instance exist.");
         } else {
-            System.out.println("Different Logger instances exist.");
+            System.out.println("Different Logger instances exists.");
         }
     }
 
