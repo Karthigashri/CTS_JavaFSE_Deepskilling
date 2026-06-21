@@ -1,0 +1,28 @@
+
+PL/SQL procedure successfully completed.
+
+
+Table CUSTOMERS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+CUSTOMERID NAME                                                                                                        AGE    BALANCE ISVIP
+---------- ---------------------------------------------------------------------------------------------------- ---------- ---------- -----
+         1 Karthiga                                                                                                     64      14000 TRUE 
+         2 Mano                                                                                                         45       8000 FALSE
+         3 Sugi                                                                                                         70      15000 TRUE 
+
