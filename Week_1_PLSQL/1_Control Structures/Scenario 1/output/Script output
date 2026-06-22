@@ -1,0 +1,74 @@
+
+Table CUSTOMERS created.
+
+
+Table ACCOUNTS created.
+
+
+Table TRANSACTIONS created.
+
+
+Table LOANS created.
+
+
+Table EMPLOYEES created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+    LOANID CUSTOMERID LOANAMOUNT INTERESTRATE STARTDAT ENDDATE 
+---------- ---------- ---------- ------------ -------- --------
+         1          1       5000            5 21-06-26 21-06-31
+         2          3      10000            7 21-06-26 21-06-29
+         3          4       7000          7.5 21-06-26 21-06-28
+         4          5      15000            8 21-06-26 21-06-30
+

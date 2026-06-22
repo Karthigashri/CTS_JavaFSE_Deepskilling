@@ -1,0 +1,28 @@
+
+Table ACCOUNTS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+
+PL/SQL procedure successfully completed.
+
+
+ACCOUNT_ID CUSTOMER_ID ACCOUNT_TYPE            BALANCE
+---------- ----------- -------------------- ----------
+        10           1 SAVINGS                   10100
+        11           2 SAVINGS                  505000
+        12           3 CURRENT                    8000
+
