@@ -1,0 +1,24 @@
+
+Table ACCOUNTS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Procedure TRANSFERFUNDS compiled
+
+
+PL/SQL procedure successfully completed.
+
+
+ACCOUNT_NO HOLDER_NAME                                                                                             BALANCE
+---------- ---------------------------------------------------------------------------------------------------- ----------
+         1 Karthi                                                                                                     9000
+         2 Mano                                                                                                       3000
+

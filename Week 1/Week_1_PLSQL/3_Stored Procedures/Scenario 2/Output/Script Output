@@ -1,0 +1,32 @@
+
+Table EMPLOYEE created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+
+PL/SQL procedure successfully completed.
+
+>>Query Run In:Query Result
+
+PL/SQL procedure successfully completed.
+
+
+EMPLOYEE_ID EMPLOYEE_NAME                                      DEPARTMENT                         SALARY
+----------- -------------------------------------------------- ------------------------------ ----------
+          1 Shri                                               IT                                  60500
+          2 Kumar                                              IT                                  72600
+          3 Surekha                                            HR                                  45000
+

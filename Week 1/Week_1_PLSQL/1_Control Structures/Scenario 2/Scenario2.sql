@@ -1,0 +1,32 @@
+BEGIN
+  EXECUTE IMMEDIATE 'DROP TABLE Customers CASCADE CONSTRAINTS';
+EXCEPTION WHEN OTHERS THEN IF SQLCODE != -942 THEN RAISE; END IF;
+END;
+/
+
+CREATE TABLE Customers (
+  CustomerID NUMBER PRIMARY KEY,
+  NAME VARCHAR2(100),
+  AGE NUMBER,
+  BALANCE NUMBER,
+  IsVIP VARCHAR2(5)
+);
+/
+
+INSERT INTO Customers VALUES (1, 'Karthiga', 64, 14000, 'FALSE');
+INSERT INTO Customers VALUES (2, 'Mano', 45, 8000, 'FALSE');
+INSERT INTO Customers VALUES (3, 'Sugi', 70, 15000, 'FALSE');
+COMMIT;
+/
+
+BEGIN
+  FOR cust IN (SELECT CustomerID FROM Customers WHERE BALANCE > 10000) LOOP
+    UPDATE Customers
+    SET IsVIP = 'TRUE'
+    WHERE CustomerID = cust.CustomerID;
+  END LOOP;
+  DBMS_OUTPUT.PUT_LINE('VIP status updated for eligible customers.');
+END;
+/
+
+SELECT * FROM Customers;
