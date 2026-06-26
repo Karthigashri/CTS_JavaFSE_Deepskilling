@@ -1,0 +1,4 @@
+12:30:21.245 [main] DEBUG Logging - This is a debug message
+12:30:21.247 [main] INFO  Logging - This is an info message
+12:30:21.248 [main] WARN  Logging - This is a warning message
+12:30:21.248 [main] ERROR Logging - This is an error message
