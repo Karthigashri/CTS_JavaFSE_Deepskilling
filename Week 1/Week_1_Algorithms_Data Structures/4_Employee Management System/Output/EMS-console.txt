@@ -1,0 +1,107 @@
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 1
+Enter Employee ID: 101
+Enter Name: Suja
+Enter Position: Worker
+Enter Salary: 10000
+Employee Added Successfully.
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 1
+Enter Employee ID: 102
+Enter Name: Varun
+Enter Position: Manager
+Enter Salary: 50000
+Employee Added Successfully.
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 1
+Enter Employee ID: 103
+Enter Name: Mani
+Enter Position: CEO
+Enter Salary: 100000
+Employee Added Successfully.
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 2
+Enter Employee ID: 103
+Employee ID : 103
+Name        : Mani
+Position    : CEO
+Salary      : ₹100000.0
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 3
+Employee ID : 101
+Name        : Suja
+Position    : Worker
+Salary      : ₹10000.0
+Employee ID : 102
+Name        : Varun
+Position    : Manager
+Salary      : ₹50000.0
+Employee ID : 103
+Name        : Mani
+Position    : CEO
+Salary      : ₹100000.0
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 4
+Enter Employee ID: 101
+Employee Deleted Successfully.
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 3
+Employee ID : 102
+Name        : Varun
+Position    : Manager
+Salary      : ₹50000.0
+Employee ID : 103
+Name        : Mani
+Position    : CEO
+Salary      : ₹100000.0
+
+===== EMPLOYEE MANAGEMENT =====
+1. Add Employee
+2. Search Employee
+3. Display Employees
+4. Delete Employee
+5. Exit
+Enter Choice: 5
+Exiting...

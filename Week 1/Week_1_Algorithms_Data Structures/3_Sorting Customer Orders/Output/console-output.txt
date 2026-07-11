@@ -1,0 +1,93 @@
+
+===== ORDER SORTING MENU =====
+1. Display Orders
+2. Bubble Sort
+3. Quick Sort
+4. Exit
+Enter Choice : 1
+Order ID      : 101
+Customer Name : Rahul
+Total Price   : ₹2500.0
+------------------------------
+Order ID      : 102
+Customer Name : Anu
+Total Price   : ₹8000.0
+------------------------------
+Order ID      : 103
+Customer Name : Karthik
+Total Price   : ₹3500.0
+------------------------------
+Order ID      : 104
+Customer Name : Priya
+Total Price   : ₹1500.0
+------------------------------
+Order ID      : 105
+Customer Name : Ravi
+Total Price   : ₹10000.0
+------------------------------
+
+===== ORDER SORTING MENU =====
+1. Display Orders
+2. Bubble Sort
+3. Quick Sort
+4. Exit
+Enter Choice : 2
+
+Orders Sorted using Bubble Sort.
+Order ID      : 104
+Customer Name : Priya
+Total Price   : ₹1500.0
+------------------------------
+Order ID      : 101
+Customer Name : Rahul
+Total Price   : ₹2500.0
+------------------------------
+Order ID      : 103
+Customer Name : Karthik
+Total Price   : ₹3500.0
+------------------------------
+Order ID      : 102
+Customer Name : Anu
+Total Price   : ₹8000.0
+------------------------------
+Order ID      : 105
+Customer Name : Ravi
+Total Price   : ₹10000.0
+------------------------------
+
+===== ORDER SORTING MENU =====
+1. Display Orders
+2. Bubble Sort
+3. Quick Sort
+4. Exit
+Enter Choice : 3
+
+Orders Sorted using Quick Sort.
+Order ID      : 104
+Customer Name : Priya
+Total Price   : ₹1500.0
+------------------------------
+Order ID      : 101
+Customer Name : Rahul
+Total Price   : ₹2500.0
+------------------------------
+Order ID      : 103
+Customer Name : Karthik
+Total Price   : ₹3500.0
+------------------------------
+Order ID      : 102
+Customer Name : Anu
+Total Price   : ₹8000.0
+------------------------------
+Order ID      : 105
+Customer Name : Ravi
+Total Price   : ₹10000.0
+------------------------------
+
+===== ORDER SORTING MENU =====
+1. Display Orders
+2. Bubble Sort
+3. Quick Sort
+4. Exit
+Enter Choice : 4
+Exiting...

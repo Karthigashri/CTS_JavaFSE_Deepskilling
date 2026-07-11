@@ -1,0 +1,56 @@
+
+<<--- LIBRARY MANAGEMENT --->>
+1. Display Books
+2. Linear Search
+3. Binary Search
+4. Exit
+Enter Choice: 1
+Book ID : 101
+Title   : Algorithms
+Author  : Thomas
+Book ID : 102
+Title   : Clean Code
+Author  : Robert
+Book ID : 103
+Title   : Data Structures
+Author  : Seymour Lipschutz
+Book ID : 104
+Title   : Java Programming
+Author  : Hema
+Book ID : 105
+Title   : Operating Systems
+Author  : Guru
+
+<<--- LIBRARY MANAGEMENT --->>
+1. Display Books
+2. Linear Search
+3. Binary Search
+4. Exit
+Enter Choice: 2
+Enter Book Title: Java Programming
+
+Book Found:
+Book ID : 104
+Title   : Java Programming
+Author  : Hema
+
+<<--- LIBRARY MANAGEMENT --->>
+1. Display Books
+2. Linear Search
+3. Binary Search
+4. Exit
+Enter Choice: 3
+Enter Book Title: Algorithms
+
+Book Found:
+Book ID : 101
+Title   : Algorithms
+Author  : Thomas
+
+<<--- LIBRARY MANAGEMENT --->>
+1. Display Books
+2. Linear Search
+3. Binary Search
+4. Exit
+Enter Choice: 4
+Exiting...

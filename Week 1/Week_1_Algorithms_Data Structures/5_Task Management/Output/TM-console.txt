@@ -1,0 +1,84 @@
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 1
+Enter Task ID: 101
+Enter Task Name: Study Java
+Enter Status: Not Completed
+Task Added Successfully.
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 1
+Enter Task ID: 102
+Enter Task Name: Aptitude
+Enter Status: Completed
+Task Added Successfully.
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 1
+Enter Task ID: 105
+Enter Task Name: Watch Tutorial
+Enter Status: pending
+Task Added Successfully.
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 2
+Enter Task ID: 101
+Task ID   : 101
+Task Name : Study Java
+Status    : Not Completed
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 3
+Task ID   : 101
+Task Name : Study Java
+Status    : Not Completed
+Task ID   : 102
+Task Name : Aptitude
+Status    : Completed
+Task ID   : 105
+Task Name : Watch Tutorial
+Status    : pending
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 4
+Enter Task ID: 103
+Task Not Found.
+
+<-----TASK MANAGEMENT----->
+1. Add Task
+2. Search Task
+3. Display Tasks
+4. Delete Task
+5. Exit
+Enter Choice: 5
+Exiting...
