@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:220px;
+}
+
+.box{
+    font-size:22px;
+    font-weight:bold;
+}
+
+button{
+    background-color:lightgreen;
+    border:2px solid green;
+    padding:5px 12px;
+    cursor:pointer;
+}

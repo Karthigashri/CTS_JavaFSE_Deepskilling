@@ -1,0 +1,21 @@
+/* Remove the JavaScript imports entirely! Only valid CSS belongs here */
+.mydiv {
+  text-align: center;
+  
+}
+table{
+    margin: auto;
+    border: 2px solid lightblue; 
+    border-collapse: separate;
+    padding:8px;     
+background-color: white;}
+
+th, td{
+    border: 1px solid lightblue;     
+    padding: 4px 8px;
+    text-align: center;
+}
+
+h1{
+    color: green;
+}
