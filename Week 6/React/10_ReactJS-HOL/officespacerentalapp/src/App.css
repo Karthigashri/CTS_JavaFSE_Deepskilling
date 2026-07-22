@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+  padding-left: 300px;  }
+
+h1{
+    color: navy;
+}
+
+img{
+    margin:20px 0;
+    border-radius:8px;
+}
