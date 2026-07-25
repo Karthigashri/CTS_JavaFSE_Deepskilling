@@ -1,0 +1,125 @@
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git branch GitWork
+
+$ git checkout GitWork
+Switched to branch 'GitWork'
+
+$ git branch
+* GitWork
+  master
+
+$ echo "<message>Hello GitWork</message>" > hello.xml
+
+$ cat hello.xml
+<message>Hello GitWork</message>
+
+$ git status
+On branch GitWork
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add hello.xml
+warning: in the working copy of 'hello.xml', LF will be replaced by CRLF the next time Git touches it
+
+$ git commit -m "Added hello.xml in GitWork"
+[GitWork 8c7e1e5] Added hello.xml in GitWork
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+$ echo "<message>Hello from Master</message>" > hello.xml
+
+$ cat hello.xml
+<message>Hello from Master</message>
+
+$ git add hello.xml
+warning: in the working copy of 'hello.xml', LF will be replaced by CRLF the next time Git touches it
+
+$ git commit -m "Added hello.xml in master"
+[master 8bcfc4e] Added hello.xml in master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+$ git log --oneline --graph --decorate --all
+* 8bcfc4e (HEAD -> master) Added hello.xml in master
+| * 8c7e1e5 (GitWork) Added hello.xml in GitWork
+|/
+* ba6a02c Added branch.txt in GitNewBranch
+* c0df351 Added gitignore file
+* 425d96e (origin/master) My First Commit
+
+$ git diff master GitWork
+diff --git a/hello.xml b/hello.xml
+index 3fa01db..44bd9a8 100644
+--- a/hello.xml
++++ b/hello.xml
+@@ -1 +1 @@
+-<message>Hello from Master</message>
++<message>Hello GitWork</message>
+
+$ git merge GitWork
+Auto-merging hello.xml
+CONFLICT (add/add): Merge conflict in hello.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ cat hello.xml
+<<<<<<< HEAD
+<message>Hello from Master</message>
+=======
+<message>Hello GitWork</message>
+>>>>>>> GitWork
+
+$ notepad++ hello.xml
+
+$ git add hello.xml
+
+$ git commit -m "Resolved merge conflict"
+[master 41ac1ae] Resolved merge conflict
+
+$ notepad++ .gitignore
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git add .gitignore
+git commit -m "Updated .gitignore"
+[master 294723b] Updated .gitignore
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+$ git branch
+  GitWork
+* master
+
+$ git branch -d GitWork
+Deleted branch GitWork (was 8c7e1e5).
+
+$ git log --oneline --graph --decorate
+* 294723b (HEAD -> master) Updated .gitignore
+*   41ac1ae Resolved merge conflict
+|\
+| * 8c7e1e5 Added hello.xml in GitWork
+* | 8bcfc4e Added hello.xml in master
+|/
+* ba6a02c Added branch.txt in GitNewBranch
+* c0df351 Added gitignore file
+* 425d96e (origin/master) My First Commit
+
+

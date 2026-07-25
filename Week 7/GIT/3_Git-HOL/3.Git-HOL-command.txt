@@ -1,0 +1,65 @@
+
+$ git branch GitNewBranch
+
+$ git branch -a
+  GitNewBranch
+* master
+  remotes/origin/master
+
+$ git checkout GitNewBranch
+Switched to branch 'GitNewBranch'
+
+$ echo "This is created in GitNewBranch" > branch.txt
+
+$ git add branch.txt
+warning: in the working copy of 'branch.txt', LF will be replaced by CRLF the next time Git touches it
+
+$ git commit -m "Added branch.txt in GitNewBranch"
+[GitNewBranch ba6a02c] Added branch.txt in GitNewBranch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch.txt
+
+$ git status
+On branch GitNewBranch
+nothing to commit, working tree clean
+
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+$ git diff master GitNewBranch
+diff --git a/branch.txt b/branch.txt
+new file mode 100644
+index 0000000..7702505
+--- /dev/null
++++ b/branch.txt
+@@ -0,0 +1 @@
++This is created in GitNewBranch
+
+$ git merge GitNewBranch
+Updating c0df351..ba6a02c
+Fast-forward
+ branch.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch.txt
+
+$ git log --oneline --graph --decorate
+* ba6a02c (HEAD -> master, GitNewBranch) Added branch.txt in GitNewBranch
+* c0df351 Added gitignore file
+* 425d96e (origin/master) My First Commit
+
+$ git branch -d GitNewBranch
+Deleted branch GitNewBranch (was ba6a02c).
+
+$ git branch
+* master
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+

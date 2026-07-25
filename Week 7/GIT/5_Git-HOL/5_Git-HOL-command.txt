@@ -1,0 +1,24 @@
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git branch
+* master
+
+$ git pull origin master
+From https://gitlab.com/shri7122005-group/gitdemo
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+$ git push origin master
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (18/18), 1.61 KiB | 413.00 KiB/s, done.
+Total 18 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://gitlab.com/shri7122005-group/gitdemo.git
+   425d96e..294723b  master -> master
